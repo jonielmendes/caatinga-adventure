@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff41ea22-cd28-4aa8-b17c-fd8247d2908b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaatingaQuest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/blocos/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mapas/world01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bloco/Bloco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entidade/Entidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entidade/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ControladorTecla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/GamePainel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sHoKoToIzXQ39F0GYDTYf5epzy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonie/IdeaProjects/CaatingaQuest/res/blocos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonie/IdeaProjects/CaatingaQuest/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\blocos" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\player" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\blocos" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\mapas" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff41ea22-cd28-4aa8-b17c-fd8247d2908b" name="Changes" comment="" />
+      <created>1738121806205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738121806205</updated>
+      <workItem from="1738121809644" duration="102000" />
+      <workItem from="1738121981506" duration="57000" />
+      <workItem from="1738122086533" duration="86000" />
+      <workItem from="1738122223179" duration="65000" />
+      <workItem from="1738122349124" duration="76000" />
+      <workItem from="1738122470416" duration="243000" />
+      <workItem from="1738122898888" duration="292000" />
+      <workItem from="1738164716921" duration="508000" />
+      <workItem from="1738180220900" duration="160000" />
+      <workItem from="1738186509494" duration="2667000" />
+      <workItem from="1738197105267" duration="1503000" />
+      <workItem from="1738201116723" duration="3271000" />
+      <workItem from="1738252732665" duration="2436000" />
+      <workItem from="1738258521557" duration="2476000" />
+      <workItem from="1738262140793" duration="410000" />
+      <workItem from="1738270567325" duration="323000" />
+      <workItem from="1738271686533" duration="6280000" />
+      <workItem from="1738280110622" duration="528000" />
+      <workItem from="1738281644532" duration="14000" />
+      <workItem from="1738286800819" duration="6494000" />
+      <workItem from="1738342865808" duration="7052000" />
+      <workItem from="1738370425758" duration="8317000" />
+      <workItem from="1738425702599" duration="385000" />
+      <workItem from="1738439302155" duration="3734000" />
+      <workItem from="1739134820002" duration="10234000" />
+      <workItem from="1739201347471" duration="785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
