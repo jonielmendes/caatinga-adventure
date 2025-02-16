@@ -20,7 +20,7 @@ public class GerenciadorDeBlocos {
         ;
 
         getBlocoImage();
-        loadMap("/mapas/world01.txt");
+        loadMap("/mapas/caatingafase1.txt");
     }
 
     public void getBlocoImage() {

@@ -5,35 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff41ea22-cd28-4aa8-b17c-fd8247d2908b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaatingaQuest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/sand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/blocos/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/mapas/world01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_down_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_down_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_left_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_left_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_right_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_right_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_up_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_up_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bloco/Bloco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidade/Entidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidade/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ControladorTecla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GamePainel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fontes/PIXroma_8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagens/tela_inicio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/mapas/caatingafase1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/Picareta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/machado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/onca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/plantamedicinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/raposa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/tatu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objetos/umbuzeiro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/Adventure.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/coin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/fanfare.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/onca2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/oncasom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/powerup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/raposa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/raposa2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/somtatu.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/som/unlock.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/GerenciadorDeObjetos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Som.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/TelaInicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Onca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Picareta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Plantamedicinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Raposa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Tatu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Umbuzeiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objeto/SuperObjeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/mapas/world01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidade/Entidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidade/Entidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidade/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidade/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePainel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePainel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +62,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jonielmendes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jonielmendes/caatinga-adventure.git&quot;,
+    &quot;accountId&quot;: &quot;6c057f1a-965b-4fc7-9deb-fcaed383af6c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -61,11 +85,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Inicio.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonie/IdeaProjects/CaatingaQuest/res/blocos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonie/IdeaProjects/CaatingaQuest/res/som&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,13 +102,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\som" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\objetos" />
       <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\blocos" />
       <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res" />
       <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\player" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\fontes" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\imagens" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\som" />
+      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\objetos" />
       <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\blocos" />
-      <recent name="C:\Users\jonie\IdeaProjects\CaatingaQuest\res\mapas" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -127,7 +157,14 @@
       <workItem from="1738425702599" duration="385000" />
       <workItem from="1738439302155" duration="3734000" />
       <workItem from="1739134820002" duration="10234000" />
-      <workItem from="1739201347471" duration="785000" />
+      <workItem from="1739201347471" duration="10412000" />
+      <workItem from="1739314573298" duration="4556000" />
+      <workItem from="1739334136578" duration="2159000" />
+      <workItem from="1739397446682" duration="767000" />
+      <workItem from="1739411760711" duration="12310000" />
+      <workItem from="1739464288407" duration="16260000" />
+      <workItem from="1739484955510" duration="3919000" />
+      <workItem from="1739678973083" duration="503000" />
     </task>
     <servers />
   </component>

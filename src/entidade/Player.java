@@ -16,7 +16,9 @@ public class Player extends Entidade {
 
     public final int screenX;
     public final int screenY;
-
+    int contemPicareta = 0;
+    int contemMachado =0;
+    int contemPlantaMed = 0;
     public Player(GamePainel gamePainel, ControladorTecla controladorTecla) {
         this.gamePainel = gamePainel;
         this.controladorTecla = controladorTecla;
@@ -27,6 +29,8 @@ public class Player extends Entidade {
         areaSolida = new Rectangle();
         areaSolida.x = 8;
         areaSolida.y = 16;
+        areaSolidaDefaultX = areaSolida.x;
+        areaSolidaDefaultY = areaSolida.y;
         areaSolida.width = 32;
         areaSolida.height = 32;
 
@@ -84,6 +88,9 @@ public class Player extends Entidade {
             colisaoon = false;
             gamePainel.verificadorDeColisao.VerificaBloco(this);
 
+            int objetoIndex = gamePainel.verificadorDeColisao.verificaObjeto(this, true);
+            pegarObjeto(objetoIndex);
+
             if(colisaoon == false){
                 switch (direction){
                     case "up": worldY -= speed; break;
@@ -104,6 +111,79 @@ public class Player extends Entidade {
             }
         }
     }
+    public void pegarObjeto(int i) {
+        if (i != 999) {
+            if (gamePainel.objetos[i] == null) {
+                System.out.println("Erro: Objeto nulo encontrado no índice " + i);
+                return;
+            }
+
+            String nomeObjeto = gamePainel.objetos[i].nome.trim().toLowerCase();
+            System.out.println("Nome do objeto: " + nomeObjeto);
+
+            switch (nomeObjeto) {
+                case "picareta":
+                    gamePainel.playSE(1);
+                    contemPicareta++;
+                    gamePainel.objetos[i] = null;
+                    System.out.println("Picareta: " + contemPicareta);
+                    break;
+
+                case "plantamedicinal":
+                    gamePainel.playSE(1);
+                    contemPlantaMed++;
+                    gamePainel.objetos[i] = null;
+                    System.out.println("Planta Medicinal: " + contemPlantaMed);
+                    break;
+
+                case "machado":
+                    gamePainel.playSE(1);
+                    contemMachado++;
+                    gamePainel.objetos[i] = null;
+                    System.out.println("Machado: " + contemMachado);
+                    break;
+
+                case "onca":
+                    if (contemMachado > 0) {
+                        gamePainel.playSE(4);
+                        gamePainel.objetos[i] = null;
+                        contemMachado--;
+                        System.out.println("Machado usado! Restantes: " + contemMachado);
+                    } else {
+                        System.out.println("Você precisa de um machado para interagir com a onça!");
+                    }
+                    break;
+
+                case "raposa":
+                    if (contemPlantaMed > 0) {
+                        gamePainel.playSE(2);
+                        gamePainel.objetos[i] = null;
+                        contemPlantaMed--;
+                        System.out.println("Planta Medicinal usada! Restantes: " + contemPlantaMed);
+                    } else {
+                        System.out.println("Você precisa de uma planta medicinal para interagir com a raposa!");
+                    }
+                    break;
+
+                case "tatu":
+                    if (contemPicareta > 0) {
+                        gamePainel.playSE(3);
+                        gamePainel.objetos[i] = null;
+                        contemPicareta--;
+                        System.out.println("Picareta usada! Restantes: " + contemPicareta);
+                    } else {
+                        System.out.println("Você precisa de uma picareta para interagir com o tatu!");
+                    }
+                    break;
+
+                default:
+                    System.out.println("Objeto não reconhecido: " + nomeObjeto);
+                    break;
+            }
+        }
+    }
+
+
 
     public void draw(Graphics2D g2) {
         BufferedImage image = null;

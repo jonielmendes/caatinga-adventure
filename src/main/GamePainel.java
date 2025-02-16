@@ -2,6 +2,7 @@ package main;
 
 import bloco.GerenciadorDeBlocos;
 import entidade.Player;
+import objeto.SuperObjeto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,19 +21,20 @@ public class GamePainel extends JPanel implements Runnable {
 
     public final int maxWorldCol = 50;
     public final int maxWorldRow = 50;
-    public final int worldWidth = tileSize * maxWorldCol;
-    public final int worldHeight = tileSize * maxWorldRow;
-
-
 
 
     // FPS
     int FPS = 60;
     GerenciadorDeBlocos gerenciadorDeBlocos = new GerenciadorDeBlocos(this);
     ControladorTecla controladorTecla = new ControladorTecla();
-    Thread gameThread;
+    Som som = new Som();
+
     public VerificadorDeColisao verificadorDeColisao = new VerificadorDeColisao(this);
+    public GerenciadorDeObjetos gerenciadorDeObjetos = new GerenciadorDeObjetos(this);
+    Thread gameThread;
+
     public Player player = new Player(this, controladorTecla);
+    public SuperObjeto objetos[] = new SuperObjeto[10];
 
 
     public GamePainel() {
@@ -42,6 +44,14 @@ public class GamePainel extends JPanel implements Runnable {
         this.addKeyListener(controladorTecla);
         this.setFocusable(true);
     }
+    public void setupGame(){
+
+        gerenciadorDeObjetos.setObjet();
+        playMusic(0);
+
+    }
+
+
     public void startGameThread() {
         gameThread = new Thread(this);
         gameThread.start();
@@ -78,8 +88,28 @@ public class GamePainel extends JPanel implements Runnable {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+        //Bloco
         gerenciadorDeBlocos.draw(g2);
+        //Objetos
+        for (int i = 0; i < objetos.length; i++) {
+            if (objetos[i] != null) {
+                objetos[i].draw(g2, this);
+            }
+        }
+        //Personagem
         player.draw(g2);
         g2.dispose();
+    }
+    public void playMusic(int i){
+        som.setFile(i);
+        som.play();
+        som.loop();
+    }
+    public void stopMusic(){
+        som.stop();
+    }
+    public void playSE(int i){
+        som.setFile(i);
+        som.play();
     }
 }
