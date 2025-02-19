@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff41ea22-cd28-4aa8-b17c-fd8247d2908b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/res/fontes/PIXroma_8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagens/tela_inicio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/mapas/caatingafase1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/Picareta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/boots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/chest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/machado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/onca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/plantamedicinal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/raposa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/tatu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/objetos/umbuzeiro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/Adventure.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/coin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/fanfare.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/onca2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/oncasom.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/powerup.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/raposa.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/raposa2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/somtatu.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/som/unlock.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GerenciadorDeObjetos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Som.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/TelaInicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Onca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Picareta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Plantamedicinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Raposa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Tatu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/OBJ_Umbuzeiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objeto/SuperObjeto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/mapas/world01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bloco/GerenciadorDeBlocos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidade/Entidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidade/Entidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidade/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidade/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePainel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePainel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VerificadorDeColisao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonie/IdeaProjects/CaatingaQuest/res/som&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonie/Documents/caatinga-adventure-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -164,7 +125,10 @@
       <workItem from="1739411760711" duration="12310000" />
       <workItem from="1739464288407" duration="16260000" />
       <workItem from="1739484955510" duration="3919000" />
-      <workItem from="1739678973083" duration="503000" />
+      <workItem from="1739678973083" duration="1467000" />
+      <workItem from="1739932360711" duration="181000" />
+      <workItem from="1739932607641" duration="481000" />
+      <workItem from="1739935384111" duration="73000" />
     </task>
     <servers />
   </component>

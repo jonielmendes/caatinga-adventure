@@ -7,9 +7,7 @@ public class Main {
     private GamePainel gamePainel; // Painel do jogo
 
     public Main() {
-        // Exibe a tela inicial
-        exibirTelaInicial();
-
+        // Exibe
         // Carrega o jogo em segundo plano
         carregarJogoEmSegundoPlano();
     }
