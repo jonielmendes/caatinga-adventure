@@ -27,8 +27,7 @@ O jogo busca ensinar sobre a **biodiversidade da Caatinga** e incentivar a prese
 │   ├── 📚 bloco
 │   ├── 📚 entidade
 │   ├── 📚 main
-│   ├── 📚 objeto
-│   └── 📚 ui
+│   ├── 📚 objeto  
 ├── .gitignore            # Arquivos ignorados pelo Git
 └── CaatingaQuest.iml     # Arquivo de configuração do projeto
 ```
