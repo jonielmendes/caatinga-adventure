@@ -44,9 +44,6 @@ caatinga-adventure
 ## Contribuições  
 Quer ajudar a melhorar o jogo? **Fork o repositório, faça suas alterações e envie um Pull Request!**
 
-## 📜 Licença  
-Este projeto é de código aberto e está sob a **licença MIT**.
-
 ## 📱 Contato  
 E-mail: [jonielmendes237@gmail.com](mailto:jonielmendes237@gmail.com)
 
