@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CaatingaQuest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CaatingaQuest_jar</output-path>
+    <root id="archive" name="CaatingaQuest.jar">
+      <element id="module-output" name="CaatingaQuest" />
+    </root>
+  </artifact>
+</component>
