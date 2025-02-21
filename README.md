@@ -36,7 +36,7 @@ O jogo busca ensinar sobre a **biodiversidade da Caatinga** e incentivar a prese
 ## 🎮 Como Jogar  
 1. **Baixe** o repositório  
    ```sh
-   git clone https://github.com/seu-usuario/caatinga-adventure.git
+   git clone https://github.com/jonielmendes/caatinga-adventure.git
    ```
 2. **Abra o projeto** em sua IDE favorita (ex: IntelliJ IDEA, Eclipse).  
 3. **Compile e execute** o jogo pela classe `Main.java`.  
@@ -49,7 +49,7 @@ Quer ajudar a melhorar o jogo? **Fork o repositório, faça suas alterações e 
 Este projeto é de código aberto e está sob a **licença MIT**. 📝  
 
 ## 📱 Contato  
-📧 E-mail: [seuemail@exemplo.com](jonielmendes237@gmail.com)  
+📧 E-mail: [jonielmendes237@gmail.com](jonielmendes237@gmail.com)  
 
 ---  
 Vamos juntos explorar e preservar a Caatinga! 🌎🌵✨
